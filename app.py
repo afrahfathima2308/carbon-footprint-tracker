@@ -6,9 +6,9 @@ import plotly.express as px
 import datetime
 
 # --- Gemini API Configuration ---
-# The API key will be automatically provided by the Canvas environment at runtime.
+
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
-API_KEY = " " # Leave this empty. Canvas will inject the key.
+API_KEY = " " 
 
 # --- Function to call Gemini API ---
 def get_gemini_response(prompt):
